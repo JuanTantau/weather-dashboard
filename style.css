@@ -1,17 +1,43 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: top left;
     align-items: center;
-    height: 100vh;
+    height: 45vh;
     margin: 0;
-    background: blue;
+    background-image: url(https://www.whatspaper.com/wp-content/uploads/2021/12/hd-night-sky-wallpaper-whatspaper-1.jpg);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
 
+/* first weather card */
 .card {
-    background: white;
+    background: #000000d0;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
     margin: 1em;
+    color: white;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+button {
+    margin: 3.5em;
+    border-radius: 50%;
+    border: none;
+    height: 3.5em;
+    width: 3.5em;
+
+
+
+
 }
