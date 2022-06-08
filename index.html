@@ -1,71 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-
 </head>
-
-<body class="flex-column min-100-vh">
-  <header class="hero">
-    <h1 class="app-title"><i class="fas fa-sun"></i> Weather Dashboard</h1>
-  </header>
-
-  <main class="flex-row justify-space-between">
-    <div class="flex-row justify-space-between col-12">
-      <div class="col-12 col-md-4">
-
-        <div class="card">
-          <h3 class="card-header text-uppercase">Search For City</h3>
-          <form id="city-form" class="card-body">
-            <label class="form-lable" for="cityname">City Name</label>
-            <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
-            <button type="submit" class="btn">Get Weather</button>
-          </form>
-        </div>
-
-
-      </div>
-
-      <div class="col-12 col-md-8">
-        <div class="card hidden" id="current-weather-card">
-          <h2 class="card-header" id="weather-status"></h2>
-          <div class="card-body" id="current-weather">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex-row justify-space-between col-12">
-      <div class="col-12 col-md-4" id="search">
-        <div class="card" id="history" style="display: none;">
-          <h3 class="card-header text-uppercase">Search History <i id="trash" class='fas fa-trash'
-              title='Clear History'></i>
-          </h3>
-          <div class="card-body" id="history-buttons">
-
-          </div>
-
-        </div>
-      </div>
-
-      <div class="col-12 col-md-8">
-        <div class="card hidden" id="five-day-card">
-          <h2 class="card-header" id="five-day-head">5-Day Forecast</h2>
-          <div class="card-body flex-row justify-space-around" id="five-day-body">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+<body>
+  <div class="card">
+<div class="search">
+  <input type="text" class="search-bar">
+  <button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"/></svg></button>
+</div>
+  </div>
 </body>
-<script src="script.js"></script>
-</body>
-
 </html>
