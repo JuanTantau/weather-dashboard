@@ -1,8 +1,8 @@
 body {
     display: flex;
-    justify-content: top left;
+    /* justify-content: top left; */
     align-items: center;
-    height: 45vh;
+    height: 57vh;
     margin: 0;
     background-image: url(https://www.whatspaper.com/wp-content/uploads/2021/12/hd-night-sky-wallpaper-whatspaper-1.jpg);
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -35,9 +35,15 @@ button {
     border-radius: 50%;
     border: none;
     height: 3.5em;
-    width: 3.5em;
+    width: 4.5em;
+}
 
-
-
-
+input.search-bar {
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: whitesmoke
+    font-family: inherit;
+    font-size: 120%;
+    width: 90%;
 }
